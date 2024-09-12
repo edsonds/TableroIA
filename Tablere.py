@@ -24,7 +24,7 @@ class HospitalSimulacion:
         self.dibujar_hospital()
 
         # Crear el robot en la posición inicial (fila 0, columna 0)
-        self.robot = self.canvas.create_image(tamano/2, tamano/2, anchor="nw", image=self.imagen_robot_tk)
+        self.robot = self.canvas.create_image(tamano, tamano, anchor="nw", image=self.imagen_robot_tk)
         self.pos_x = 0
         self.pos_y = 0
 
